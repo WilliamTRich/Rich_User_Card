@@ -1,0 +1,57 @@
+body{
+    padding: 5% 25%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 4px solid gray;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 10rem;
+    background-color: #17A2B8;
+    margin-bottom: 5rem;
+    border: 2px solid red;
+}
+
+.column {
+    font-family: cursive;
+    font-size: 2rem;
+    margin-left: 3rem;
+    border: 2px solid green;
+}
+
+.column :is(h2, p, a, .grouped) {
+    margin: 0;
+}
+
+.column > .grouped {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin: 1rem 0;
+    border: 2px solid yellow;
+}
+
+.column > img {
+    position: absolute;
+    top: 5rem;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.grouped > img {
+    height: 1.5rem;
+}
+
+.grouped > a {
+    padding-bottom: .5rem;
+    color: #085393;
+}
