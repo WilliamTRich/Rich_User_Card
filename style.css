@@ -14,15 +14,13 @@ fieldset {
 header {
     height: 10rem;
     background-color: #17A2B8;
-    margin-bottom: 5rem;
-    border: 2px solid red;
+    margin-bottom: 5rem;    
 }
 
 .column {
     font-family: cursive;
     font-size: 2rem;
     margin-left: 3rem;
-    border: 2px solid green;
 }
 
 .column :is(h2, p, a, .grouped) {
@@ -32,9 +30,8 @@ header {
 .column > .grouped {
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: .8rem;
     margin: 1rem 0;
-    border: 2px solid yellow;
 }
 
 .column > img {

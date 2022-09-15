@@ -5,9 +5,9 @@ An assignment to work with flexbox, and position. Goes over how to remove elemen
 
 ## Expected
 
-![alt-text] (/imgs/user-card-wireframe.png)
+![alt-text](imgs/user-card-wireframe.png)
 
 
 ## Result
 
-![alt-text] (/imgs/user-card.png)
+![alt-text](/imgs/user-card.png)
